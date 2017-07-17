@@ -1,0 +1,72 @@
+/* line 1, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 6, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+body svg {
+  width: 100%;
+}
+
+/* line 12, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+#stars_1 {
+  animation: 1s stars infinite;
+}
+
+/* line 13, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+#stars_2 {
+  animation: 0.7s stars infinite;
+}
+
+/* line 14, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+#stars_3 {
+  animation: 0.5s stars infinite;
+}
+
+/* line 17, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+.clouds {
+  animation: 6s clouds infinite;
+}
+
+/* line 21, C:/Users/bfloutan/Documents/SVG/Elk/resources/sass/style.scss */
+.moon-ring {
+  animation: 3s pulse infinite;
+  transform-origin: center;
+}
+
+@keyframes stars {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes clouds {
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=../../public/style.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../resources/sass/style.css",
+	"sources": [
+		"../resources/sass/style.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n  padding: 0;\r\n  margin: 0;\r\n  overflow: hidden;\r\n\r\n  svg {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n#stars {\r\n  &_1 { animation: 1s stars infinite; }\r\n  &_2 { animation: 0.7s stars infinite; }\r\n  &_3 { animation: 0.5s stars infinite; }\r\n}\r\n\r\n.clouds {\r\n  animation: 6s clouds infinite;\r\n}\r\n\r\n.moon-ring {\r\n  animation: 3s pulse infinite;\r\n  transform-origin: center;\r\n}\r\n\r\n@keyframes stars {\r\n  0% { opacity: 1}\r\n  50% { opacity: 0; }\r\n  100% { opacity: 1; }\r\n}\r\n\r\n@keyframes clouds {\r\n  50% { transform: translateX(100px); }\r\n  100% { transform: translateX(0); }\r\n}\r\n\r\n@keyframes pulse {\r\n  0% { transform: scale(1); }\r\n  50% { transform: scale(1.1); }\r\n  100% { transform: scale(1.0); }\r\n}\r\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,QAAQ,EAAE,MAAO;CAKlB;;;AARD,AAKE,IALE,CAKF,GAAG,CAAC;EACF,KAAK,EAAE,IAAK;CACb;;;AAGH,AAAA,QAAM,CACA;EAAE,SAAS,EAAE,iBAAkB;CAAI;;;AADzC,AAAA,QAAM,CAEA;EAAE,SAAS,EAAE,mBAAoB;CAAI;;;AAF3C,AAAA,QAAM,CAGA;EAAE,SAAS,EAAE,mBAAoB;CAAI;;;AAG3C,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,kBAAmB;CAC/B;;;AAED,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,iBAAkB;EAC7B,gBAAgB,EAAE,MAAO;CAC1B;;AAED,UAAU,CAAV,KAAU;EACR,AAAA,EAAE;IAAG,OAAO,EAAE,CAAE;;EAChB,AAAA,GAAG;IAAG,OAAO,EAAE,CAAE;;EACjB,AAAA,IAAI;IAAG,OAAO,EAAE,CAAE;;;;AAGpB,UAAU,CAAV,MAAU;EACR,AAAA,GAAG;IAAG,SAAS,EAAE,iBAAU;;EAC3B,AAAA,IAAI;IAAG,SAAS,EAAE,aAAU;;;;AAG9B,UAAU,CAAV,KAAU;EACR,AAAA,EAAE;IAAG,SAAS,EAAE,QAAK;;EACrB,AAAA,GAAG;IAAG,SAAS,EAAE,UAAK;;EACtB,AAAA,IAAI;IAAG,SAAS,EAAE,QAAK",
+	"names": []
+}
