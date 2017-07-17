@@ -9,9 +9,9 @@ body {
 }
 
 #stars {
-  &_1 { animation: 1s stars infinite; }
-  &_2 { animation: 0.7s stars infinite; }
-  &_3 { animation: 0.5s stars infinite; }
+  &_1 { animation: 2s stars infinite; }
+  &_2 { animation: 1.7s stars infinite; }
+  &_3 { animation: 1.5s stars infinite; }
 }
 
 .clouds {
@@ -24,7 +24,6 @@ body {
 }
 
 @keyframes stars {
-  0% { opacity: 1}
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
